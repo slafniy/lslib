@@ -40,6 +40,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PhysicsTool", "PhysicsTool\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LSLibStats", "LSLibStats\LSLibStats.csproj", "{A721CE1D-F76D-476B-86E7-C8B2D85D7E73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bg3lsx2lsf", "bg3lsx2lsf\bg3lsx2lsf.csproj", "{BD348FC8-B01E-43DC-BA7E-0168739BD69D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -266,6 +268,24 @@ Global
 		{A721CE1D-F76D-476B-86E7-C8B2D85D7E73}.RelWithDebInfo|x64.Build.0 = Release|Any CPU
 		{A721CE1D-F76D-476B-86E7-C8B2D85D7E73}.RelWithDebInfo|x86.ActiveCfg = Release|Any CPU
 		{A721CE1D-F76D-476B-86E7-C8B2D85D7E73}.RelWithDebInfo|x86.Build.0 = Release|Any CPU
+		{BD348FC8-B01E-43DC-BA7E-0168739BD69D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD348FC8-B01E-43DC-BA7E-0168739BD69D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD348FC8-B01E-43DC-BA7E-0168739BD69D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BD348FC8-B01E-43DC-BA7E-0168739BD69D}.Debug|x64.Build.0 = Debug|Any CPU
+		{BD348FC8-B01E-43DC-BA7E-0168739BD69D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BD348FC8-B01E-43DC-BA7E-0168739BD69D}.Debug|x86.Build.0 = Debug|Any CPU
+		{BD348FC8-B01E-43DC-BA7E-0168739BD69D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD348FC8-B01E-43DC-BA7E-0168739BD69D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD348FC8-B01E-43DC-BA7E-0168739BD69D}.Release|x64.ActiveCfg = Release|Any CPU
+		{BD348FC8-B01E-43DC-BA7E-0168739BD69D}.Release|x64.Build.0 = Release|Any CPU
+		{BD348FC8-B01E-43DC-BA7E-0168739BD69D}.Release|x86.ActiveCfg = Release|Any CPU
+		{BD348FC8-B01E-43DC-BA7E-0168739BD69D}.Release|x86.Build.0 = Release|Any CPU
+		{BD348FC8-B01E-43DC-BA7E-0168739BD69D}.RelWithDebInfo|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD348FC8-B01E-43DC-BA7E-0168739BD69D}.RelWithDebInfo|Any CPU.Build.0 = Debug|Any CPU
+		{BD348FC8-B01E-43DC-BA7E-0168739BD69D}.RelWithDebInfo|x64.ActiveCfg = Debug|Any CPU
+		{BD348FC8-B01E-43DC-BA7E-0168739BD69D}.RelWithDebInfo|x64.Build.0 = Debug|Any CPU
+		{BD348FC8-B01E-43DC-BA7E-0168739BD69D}.RelWithDebInfo|x86.ActiveCfg = Debug|Any CPU
+		{BD348FC8-B01E-43DC-BA7E-0168739BD69D}.RelWithDebInfo|x86.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
