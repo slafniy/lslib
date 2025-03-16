@@ -43,6 +43,7 @@ _ReSharper.Caches/
 /Debug
 /Release
 /x64
+/.idea
 
 */bin
 */obj
