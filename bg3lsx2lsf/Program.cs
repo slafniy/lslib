@@ -8,7 +8,8 @@ Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
 
 const ResourceFormat inputFormat = ResourceFormat.LSX;
 const ResourceFormat outputFormat = ResourceFormat.LSF;
-string resourceInputDir = args[0];
+string lsxInputDirectory = args[0];
+string lsfOutputDirectory = args[1];
 
 var loadParams = new ResourceLoadParameters { ByteSwapGuids = true };
 
@@ -27,7 +28,7 @@ var conversionParams = new ResourceConversionParameters
 var utils = new ResourceUtils();
 utils.errorDelegate += ResourceError;
 
-utils.ConvertResources(resourceInputDir, resourceInputDir, inputFormat, outputFormat, loadParams, conversionParams);
+utils.ConvertResources(lsxInputDirectory, lsfOutputDirectory, inputFormat, outputFormat, loadParams, conversionParams);
 return;
 
 
